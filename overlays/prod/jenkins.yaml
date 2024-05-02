@@ -4,9 +4,9 @@ metadata:
   name: jenkinsc
 spec:
   project: default
-  destination:
-    namespace: build-infra-jenkins
-    server: https://kubernetes.default.svc
+  # destination:
+  #   namespace: build-infra-jenkins
+  #   server: https://kubernetes.default.svc
   sources:
     - repoURL: 'https://charts.jenkins.io'
       chart: jenkins
@@ -21,7 +21,7 @@ spec:
         valueFiles:
         - $values/base/values.yaml
         - $values/base/plugins.yaml
-    - repoURL: 'https://github.com/dhanushk1/jenkinsvalue.git'
+    - repoURL: 'https://github.com/dhanushk1/jenkinsKustom.git'
       targetRevision: HEAD
       ref: values
   syncPolicy:
