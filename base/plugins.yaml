@@ -17,7 +17,7 @@ controller:
     - blueocean-autofavorite:latest
     - bitbucket:latest
     - bitbucket-filter-project-trait:latest
-    - bitbucket-approve:latest Warning: This plugin version may not be safe to use. Please review the following security notices
+    - bitbucket-approve:latest
     - bitbucket-build-status-notifier:latest
     - bitbucket-pullrequest-builder:latest
     - atlassian-bitbucket-server-integration:latest
