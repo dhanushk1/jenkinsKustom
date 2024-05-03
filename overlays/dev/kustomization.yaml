@@ -3,5 +3,10 @@ kind: Kustomization
 resources:
   - ../../base
 patches:
-  - path: jenkins.yaml
+  - target:
+      group: argoproj.io
+      version: v1alpha1
+      kind: Application
+      name: jenkinsc
+    path: jenkins.yaml
 namePrefix: dev-
