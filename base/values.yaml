@@ -6,10 +6,10 @@ controller:
     enabled: false
   # serviceType: NodePort
   # nodePort: 31466
-  existingSecret: github-auth
-  additionalExistingSecrets: 
-    - name: jenkins-env-var 
-      keyName: ART_SERV 
+  # existingSecret: github-auth
+  # additionalExistingSecrets: 
+  #   - name: jenkins-env-var 
+  #     keyName: ART_SERV 
   agentListenerEnabled: true
   agentListenerPort: 50000
   agentListenerHostPort:
