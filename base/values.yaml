@@ -1,4 +1,5 @@
 controller:
+  jenkinsHome: "/var/lib/jenkins"
   image:
     tag: "2.440.3-jdk17"
     tagLabel: jdk17
