@@ -17,14 +17,14 @@ controller:
     - blueocean-autofavorite:latest
     - bitbucket:latest
     - bitbucket-filter-project-trait:latest
-    - bitbucket-approve:latest
+    - bitbucket-approve:latest #Warning: This plugin version may not be safe to use. Please review the following security notices
     - bitbucket-build-status-notifier:latest
     - bitbucket-pullrequest-builder:latest
     - atlassian-bitbucket-server-integration:latest
     - aws-codepipeline:latest
     - aws-java-sdk:latest
     - aws-credentials:latest
-    - convert-to-pipeline:latest
+    - convert-to-pipeline:latest #Warning: This plugin version may not be safe to use. Please review the following security notices:
     - pipeline-utility-steps:latest
     - pipeline-stage-view:latest
     - pipeline-rest-api:latest
@@ -33,7 +33,7 @@ controller:
     - docker-workflow:latest
     - docker-plugin:latest
     - docker-build-publish:latest 
-    - docker-build-step:latest
+    - docker-build-step:latest #Warning: This plugin version may not be safe to use. Please review the following security notices:
     - build-blocker-plugin:latest
     - build-timeout:latest
     - conditional-buildstep:latest
@@ -43,7 +43,7 @@ controller:
     - build-token-root:latest
     - build-time-blame:latest
     - next-build-number:latest
-    - JDK_Parameter_Plugin:latest
+    - JDK_Parameter_Plugin:latest #install Warning: This plugin version may not be safe to use. Please review the following security notices:
     - junit-realtime-test-reporter:latest
     - ec2:latest 
     - amazon-ecs:latest 
@@ -58,4 +58,57 @@ controller:
     - golang:latest
     - gradle:latest
     - groovy:latest
+    - http_request:latest
+    - hidden-parameter:latest
+    - ivy:latest #install #Warning: This plugin version may not be safe to use. Please review the following security notices:
+    - artifactory:3.17.3
+    - cvs:latest
+    - custom-tools-plugin:latest
+    - jacoco:latest
+    - jobConfigHistory:latest
+    - jenkins-multijob-plugin:latest
+    - port-allocator:latest #warning:
+    - powershell:latest
+    - subversion:latest
+    - ws-cleanup:latest
+    - job-restrictions:latest
+    - lockable-resources:latest
+    - nodejs:latest
+    - performance:latest
+    - phabricator-plugin:latest #warning:
+    - repository-connector:latest #warning:
+    - ssh-agent:latest
+    - slack:latest
+    - testquality-updater:latest #warning:
+    - toolenv:latest
+    - vsphere-cloud:latest
+    - xunit:latest
+    - syslog-logger:latest
+    - audit-trail:latest
+    - authorize-project:latest
+    - bootstrap4-api:latest
+    - dashboard-view:latest
+    - dynamic_extended_choice_parameter:latest #warning:
+    - role-strategy:latest #auto for dynamic extended 
+    - external-monitor-job:latest
+    - google-login:latest
+    - icon-shim:latest
+    - ace-editor:latest 
+    - handlebars:latest
+    - momentjs:latest
+    - jquery:latest
+    - jquery-ui:latest
+    - ldap:latest #auto for jquery ui 
+    - jquery-detached:latest
+    - extended-read-permission:latest
+    - gravatar:latest
+    - mission-control-view:latest #warning: 
+    - modernstatus:latest
+    - plugin-usage-plugin:latest
+    - saml:latest
+    - validating-yaml-parameter:latest
+    - windows-slaves:latest
+    - mask-passwords:latest
+    - jfrog:latest
+    
     
